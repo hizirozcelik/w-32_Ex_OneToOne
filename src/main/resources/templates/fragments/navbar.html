@@ -1,0 +1,25 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+	<div th:fragment="fragments/navbar">
+		<nav class="navbar navbar-dark navbar-expand-md bg-dark">
+			<div class="container">
+				<a href="/" class="navbar-brand d-flex w-50 me-auto">Canadian Pet Expo</a>
+				<button class="navbar-toggler" type="button"
+					data-bs-toggle="collapse" data-bs-target="#collapsingNavbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="navbar-collapse collapse w-100" id="collapsingNavbar">
+					<ul class="navbar-nav w-100 justify-content-center">
+						<li class="nav-item"><a class="nav-link"
+							href="/addGuest">Add Guest</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+</body>
+
+</html>
